@@ -8,7 +8,7 @@
 
 This dataset explores a counterintuitive pattern where higher reported disease may coincide with stronger healthcare systems, which may reflect differences in detection, reporting systems, or underlying disease burden. 
 
-*There is no single "correct" model — only more robust ones under different assumptions.*
+*There is no single "correct" model, only more robust ones under different assumptions.*
 
 ---
 
@@ -17,12 +17,12 @@ This dataset explores a counterintuitive pattern where higher reported disease m
 
 **Difficulty Level:** Intermediate $\rightarrow$ Advanced (Statistical Modeling)
 
-Indonesia ranks among the countries with the highest tuberculosis (TB) burden globally. However, public health records do not capture true incidence—they capture *reported* cases. This dataset serves as a case study in **Tuberculosis Case Notification Bias** and a **Small-Sample Regression Benchmark** across all **38 provinces in Indonesia for the year 2024**, exploring the gap between reported and underlying disease burden. Combining officially published records from the **Ministry of Health (Kemenkes)** and the **Central Bureau of Statistics (BPS)**, it challenges standard modeling assumptions.
+Indonesia ranks among the countries with the highest tuberculosis (TB) burden globally. However, public health records do not capture true incidence, they capture *reported* cases. This dataset serves as a case study in **Tuberculosis Case Notification Bias** and a **Small-Sample Regression Benchmark** across all **38 provinces in Indonesia for the year 2024**, exploring the gap between reported and underlying disease burden. Combining officially published records from the **Ministry of Health (Kemenkes)** and the **Central Bureau of Statistics (BPS)**, it challenges standard modeling assumptions.
 
 What makes this dataset unique is that it challenges the assumption that better infrastructure always reduces observed disease.
 
 > [!WARNING]
-> This dataset contains realistic modeling challenges such as high leverage outliers and multicollinearity. Interpret results cautiously — statistical significance in this dataset does not imply real-world causality.
+> This dataset contains realistic modeling challenges such as high leverage outliers and multicollinearity. Interpret results cautiously, statistical significance in this dataset does not imply real-world causality.
 
 ---
 
