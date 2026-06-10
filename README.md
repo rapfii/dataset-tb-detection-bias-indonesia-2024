@@ -200,15 +200,6 @@ print("Intercept:", model.intercept_)
 
 ---
 
-## 🎮 Kaggle Playground Challenges
-
-Try these challenges to explore the boundaries of this dataset:
-1. **The DKI Jakarta Stress Test:** Re-fit the regression model after removing DKI Jakarta from the dataset. Does `population_density` remain a significant predictor?
-2. **The Poverty Paradox:** Can you construct a subset of provinces or apply a feature transformation (such as interaction terms `poverty * proper_housing_percent` or non-linear effects) where `poverty_rate` becomes a statistically significant predictor of notifications?
-3. **Regularization Showdown:** Train OLS, Ridge, and Lasso models. Compare how Ridge and Lasso handle the collinearity between `poverty_rate` and `proper_housing_percent`.
-
----
-
 ## 🚀 Suggested Modeling Pipeline
 
 To achieve robust results, we recommend the following diagnostic and modeling pipeline:
